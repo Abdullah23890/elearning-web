@@ -1,0 +1,19 @@
+function checkEmail() {
+  let email = document.getElementById("email").value;
+
+  if(email === ""){
+    Swal.fire({
+  title: "Email",
+  text: "Plz Enter Email",
+  icon: "warning"
+});
+return false;
+  } else {
+    swal.fire({
+      title: "Enjoy",
+      text: "Enjoy Our New Letter",
+      icon: "success"
+    })
+return false;
+  }
+}

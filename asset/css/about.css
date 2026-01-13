@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin-top: 5.2rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+.custom-navbar {
+  padding: 0;
+  height: 80px;
+  margin-right: 0px;
+  background-color: white;
+
+}
+
+.menu-icon {
+  font-size: 26px;
+  color: #00bcd4;
+  cursor: pointer;
+  /* padding-left: 30px; */
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: 700;
+  color: #00bcd4 !important;
+  letter-spacing: 1px;
+}
+
+.nav-link {
+  font-weight: 600;
+  color: #0b132b !important;
+  margin: 0 8px;
+}
+
+.nav-link.active {
+  color: #00bcd4 !important;
+}
+
+.join-btn {
+  background-color: #00bcd4;
+  color: #fff;
+  padding: 30px 35px;
+  border-radius: 0;
+  font-weight: 600;
+  height: 100%;
+ display: inline-flex;
+  align-items: center;
+  
+  
+}
+
+.join-btn:hover {
+  background-color: #00a5bb;
+  color: #fff;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 130px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-item:hover{
+color: orangered;
+}
+
+
+.nav-link:hover{
+    color: rgb(3, 110, 110);
+}
+
+.bg-btn-custom{
+    background-color: rgba(4, 209, 107, 0.596);
+    color: orangered;
+}
+
+.bg-custom-footer{
+    background-color: rgb(2, 2, 54);
+}
+
+.hero-img{
+    height: 20rem;
+    width: 100%;
+    background-image:
+      linear-gradient(rgba(56, 53, 53, 0.6), rgba(59, 47, 47, 0.6)),
+      url('../img/about-hero.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.bannerlink{
+color: White;
+}
+
+.bannerlink:hover{
+    text-decoration: underline;
+}
+
+.bannerhead{
+color: White;
+font-family: cursive;
+}
+
+.footer{
+    color: whitesmoke;
+}
+
+.footer:hover{
+    color: rgb(207, 193, 166);
+    text-decoration: line-through;
+}
+
+.footer-icon{
+    height: 1.7rem;
+    width: 1.7rem;
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+}
+
+.footer-icon:hover{
+    transform: translateY(-3px);
+    box-shadow: 0px 2px 3px orangered;
+}
+
+.card{
+  transition: all;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+  color: #00a5bb;
+  background-color: white;
+}
+
+
+
+.card:hover{
+  color: white;
+  transform: translateY(-7px);
+  background-color: #00a5bb;
+}
+.tittle{
+  color: white;
+}
+
+.tittle:hover{
+  color: white;
+}
+
+.about-sec{
+  height: 30rem;
+}
