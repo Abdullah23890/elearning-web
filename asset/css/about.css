@@ -94,7 +94,7 @@ color: orangered;
 }
 
 .bg-custom-footer{
-    background-color: rgb(2, 2, 54);
+    background-color: rgb(1, 1, 32);
 }
 
 .hero-img{
@@ -169,4 +169,16 @@ font-family: cursive;
 
 .about-sec{
   height: 30rem;
+}
+
+.aboutsec-head{
+  color: #00a5bb;
+  font-family: Arial;
+}
+
+.aboutsec-subhead{
+  color: black;
+  font-size: 2rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bolder;
 }
