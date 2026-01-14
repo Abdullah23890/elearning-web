@@ -14,42 +14,38 @@
 </head>
 <body>
     
-    <nav class="navbar fixed-top navbar-expand-lg custom-navbar">
-     <div class="container-fluid">
-
-    <!-- Left: Menu + Logo -->
-    <div class="d-flex align-items-center">
-      <i class="fas fa-book menu-icon ms-3 me-2"></i>
-      <a class="navbar-brand logo" href="#">eLEARNING</a>
-    </div>
-
-    <!-- Toggle -->
-    <button class="navbar-toggler me-3" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-lg fixed-top custom-navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand d-flex align-items-center" href="#">
+      <i class="fas fa-book menu-icon me-2"></i>
+      <span class="logo">eLEARNING</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+      data-bs-target="#navbar">
       <span class="navbar-toggler-icon"></span>
     </button>
-
-    <!-- Center Menu -->
-    <div class="collapse text-center ms-lg-auto navbar-collapse" id="navbar">
-      <ul class="navbar-nav ms-lg-auto my-2 my-lg-0 navbar-nav-scroll">
-        <li class="nav-item"><a class="nav-link " href="index.html">HOME</a></li>
+    <div class="collapse navbar-collapse" id="navbar">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0 text-center">
+        <li class="nav-item"><a class="nav-link" href="index.html">HOME</a></li>
         <li class="nav-item"><a class="nav-link active" href="about.html">ABOUT</a></li>
         <li class="nav-item"><a class="nav-link" href="course.html">COURSES</a></li>
         <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle dropdown" data-bs-toggle="dropdown" aria-expanded="false" role="button" href="#">PAGES</a>
-        <ul class="dropdown-menu dropdown-content">
-        <li><a class="dropdown-item" href="#">Page 1</a></li>
-        <li><a class="dropdown-item" href="#">Page 2</a></li>
-        </ul>
+          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+            PAGES
+          </a>
+          <ul class="dropdown-menu dropdown-content">
+            <li><a class="dropdown-item" href="#">Page 1</a></li>
+            <li><a class="dropdown-item" href="#">Page 2</a></li>
+          </ul>
         </li>
-        <li class="nav-item"><a class="nav-link" href="contact">CONTACT</a></li>
-      </ul>
 
-      <!-- Right Button -->
-       
-      <a href="#" class="btn join-btn m-0">
-        Join Now <i class="fas fa-arrow-right ms-4"></i>
-       </a>
-      
+        <li class="nav-item"><a class="nav-link" href="contact.html">CONTACT</a></li>
+      </ul>
+      <div class="text-center">
+        <a href="#" class="btn join-btn">
+          Join Now <i class="fas fa-arrow-right ms-2"></i>
+        </a>
+      </div>
     </div>
   </div>
 </nav>
